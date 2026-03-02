@@ -1,0 +1,22 @@
+hparams:
+  fusion_method: 'concate'
+  hidden_size: 512
+  num_classes: 6
+  batch_size: 16
+  learning_rate: 1e-4
+  seed: 42
+  dataset: 'CREMAD'
+  rho: 0.3
+  score_weight: 0.8
+  momentum: 0.91
+  loss_multi: 1.0
+  loss_ehr: 1.0
+  loss_cxr: 1.0
+  input_size: 24
+  uniloss: true
+  gpu: 0
+  model_name: 'masam'
+  dynamic_mode: true
+  ehr_n_head: 4
+  ehr_n_layers: 1
+  ehr_dropout: 0.2

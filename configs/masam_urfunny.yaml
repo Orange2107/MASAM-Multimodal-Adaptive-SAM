@@ -1,0 +1,22 @@
+hparams:
+  fusion_method: 'concate'
+  hidden_size: 512
+  num_classes: 2
+  batch_size: 16
+  learning_rate: 1e-4
+  seed: 42
+  dataset: 'URFUNNY'
+  rho: 0.5
+  score_weight: 0.5
+  momentum: 0.9
+  loss_multi: 1.0
+  loss_audio: 1.0
+  loss_video: 1.0
+  loss_text: 1.0
+  uniloss: true
+  gpu: 0
+  model_name: 'masam'
+  dynamic_mode: true
+  ehr_n_head: 4
+  ehr_n_layers: 1
+  ehr_dropout: 0.2
